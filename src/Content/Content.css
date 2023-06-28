@@ -19,12 +19,7 @@ margin-top: 50px;
 	font-size: 10px;
 	}
   }
-/* Styles for mobile screens */
-@media (max-width: 480px) {
-  .overlay-panel {
-    font-size: 10px;
-	padding: 0 10px;
-  }
+
 }
 .contact-page h1 {
 	font-weight: bold;
@@ -202,6 +197,13 @@ button.ghost {
 	width: 50%;
 	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
+}
+/* Styles for mobile screens */
+@media (max-width: 480px) {
+  .overlay-panel {
+    font-size: 10px;
+	padding: 0 10px;
+  }
 }
 
 .overlay-left {
