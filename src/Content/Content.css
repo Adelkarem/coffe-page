@@ -11,7 +11,21 @@
 	height: 100vh;
 margin-top: 50px;
 }
-
+/* Styles for mobile screens */
+@media (max-width: 480px) {
+	.contact-page {
+    height: 80vh;
+	margin-top: 120px;
+	font-size: 10px;
+	}
+  }
+/* Styles for mobile screens */
+@media (max-width: 480px) {
+  .overlay-panel {
+    font-size: 10px;
+	padding: 0 10px;
+  }
+}
 .contact-page h1 {
 	font-weight: bold;
 	margin: 0;
