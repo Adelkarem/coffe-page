@@ -1,8 +1,5 @@
 .cofeup1{
-<<<<<<< HEAD
-    width: 90vw;
-=======
->>>>>>> origin/main
+   width: 90vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,12 +7,9 @@
     margin: 0;
     overflow: hidden;
   }
-<<<<<<< HEAD
-   /* Styles for mobile screens */
-=======
+
   
     /* Styles for mobile screens */
->>>>>>> origin/main
 @media (max-width: 480px) {
 
   .cofeup1 {
@@ -26,12 +20,8 @@
 	height: 100vh;
   }
 }
-<<<<<<< HEAD
- 
-=======
->>>>>>> origin/main
   
-  #plate{
+#plate{
     width: 50vmin;
     height: 50vmin;
     border-radius: 50%;
@@ -637,11 +627,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     overflow: hidden;
-=======
-      overflow: hidden;
->>>>>>> origin/main
   }
   #steam{
     width: 100%;
