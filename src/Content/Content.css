@@ -6,9 +6,6 @@
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
-<<<<<<< HEAD
-margin-top: 30px;
-=======
 	margin-top: 50px;
 }
 
@@ -19,7 +16,6 @@ margin-top: 30px;
 		margin-top: 120px;
 		font-size: 10px;
 	}
->>>>>>> origin/main
 }
 /* Styles for mobile screens */
 @media (max-width: 480px) {
@@ -206,7 +202,6 @@ button.ghost {
 	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
-<<<<<<< HEAD
 /* Styles for mobile screens */
 @media (max-width: 480px) {
   .overlay-panel {
@@ -214,7 +209,7 @@ button.ghost {
 	padding: 0 10px;
   }
 }
-=======
+
 
 /* Styles for mobile screens */
 @media (max-width: 480px) {
@@ -224,7 +219,6 @@ button.ghost {
 	}
 }
 
->>>>>>> origin/main
 .overlay-left {
 	transform: translateX(-20%);
 }
