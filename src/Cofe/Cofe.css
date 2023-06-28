@@ -11,15 +11,14 @@
   
     /* Styles for mobile screens */
 @media (max-width: 480px) {
-
   .cofeup1 {
-  	background: url(https://images.unsplash.com/photo-1599229809585-f92ea053b547?w=1950&q=80)
-		no-repeat center 32%;
-	background-size: cover;
-	width: 100vw;
-	height: 100vh;
+    background: url(https://images.unsplash.com/photo-1599229809585-f92ea053b547?w=1950&q=80) no-repeat center 32%;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
   }
 }
+
   
 #plate{
     width: 50vmin;
