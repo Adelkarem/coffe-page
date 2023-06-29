@@ -1,9 +1,5 @@
 .cofeup1{
-
-    /* background-image: url(/public/img/cofe.jpg); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-    /* width: 100vw; */
+    width: 90vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,7 +7,17 @@
     margin: 0;
     overflow: hidden;
   }
-  
+   /* Styles for mobile screens */
+@media (max-width: 480px) {
+
+  .cofeup1 {
+  	background: url(https://images.unsplash.com/photo-1599229809585-f92ea053b547?w=1950&q=80)
+		no-repeat center 32%;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+  }
+}
  
   
   #plate{
@@ -212,7 +218,7 @@
     width: 100%;
     height: 100%;
   
-    /* deactivate animations for safari because it's the new IE */
+    
     @media not all and (min-resolution:.001dpcm)
     { @supports (-webkit-appearance:none) {
         animation-name: none;
@@ -249,7 +255,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    /* deactivate animations for safari because it's the new IE */
     @media not all and (min-resolution:.001dpcm)
     { @supports (-webkit-appearance:none) {
       animation-name: none;
@@ -303,7 +308,6 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     will-change: transform;
-    /* deactivate animations for safari because it's the new IE */
     @media not all and (min-resolution:.001dpcm)
     { @supports (-webkit-appearance:none) {
       animation-name: none;
@@ -339,7 +343,6 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     will-change: transform;
-    /* deactivate animations for safari because it's the new IE */
     @media not all and (min-resolution:.001dpcm)
     { @supports (-webkit-appearance:none) {
       animation-name: none;
@@ -623,6 +626,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
   #steam{
     width: 100%;

@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="newsletter">
             <h3>Newsletter</h3>
             <form method="post">
-  <input type="email" name="email" placeholder="Type Your Email" />
+            <input type="email" name="email" placeholder="Type Your Email" autocomplete="email" />
   <i className="fas fa-envelope"></i>
 </form>
 
